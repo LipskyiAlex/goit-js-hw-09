@@ -16,3 +16,31 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer { 
+
+  display: flex;
+
+   width: 172px;
+   gap: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 4px -1px 6px rgba(206,89,55,0.67);
+
+  color: #FFFFFF;
+background: #333333;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+
+}
+.value {
+
+  display: block;
+  font-size: 23px;
+   margin-bottom: 0;
+}
+
+.label {
+   
+   display: block;
+   font-size: 10px;
+}
